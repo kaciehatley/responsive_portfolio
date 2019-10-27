@@ -6,35 +6,27 @@
     <!-- Linking normalized, then Bootstrap, then style.css -->
     <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body> 
     <!-- Nav row using bootsrap components -->
-    <div class="row" id="nav-row">
-        <div class="col-sm-2"></div>
-        <div class="col-sm-8">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav">
+    <nav class="navbar navbar-expand-sm navbar-light bg-white" id="nav">
             <a class="navbar-brand" href="index.html"><h1 id="name">Kacie Hatley</h1></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">About<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link active" href="index.html">About<span class="sr-only">(current)</span></a>
                 <p class="nav-item nav-link">|</p>
-                <a class="nav-item nav-link" href="#">Portfolio</a>
+                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
                 <p class="nav-item nav-link">|</p>
-                <a class="nav-item nav-link" href="#">Contact</a>
+                <a class="nav-item nav-link" href="contact.html">Contact</a>
             </div>
             </div>
             <div class="col-sm-2">
             </div>
-        </div>
-        </nav>
-    </div>
+    </nav>
         <!-- Main section containing "About Me" -->
     <div class="background">
-        <div class="row" id="content-margin">
+        <div class="row content-margin">
         </div>
         <!-- Picture and Short Bio -->
         <div class="row">
@@ -42,13 +34,17 @@
             </div>
             <div class="col-sm-8" id="content">
             <h1 id="aboutme">About Me</h1>
-            <img src="assets/images/IMG_4561.jpg" alt="..." class="img-thumbnail">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, iste! Fuga qui ex sint corporis! Vel exercitationem, sunt, culpa dolorem magnam voluptates placeat repellendus ad commodi perspiciatis vitae consequuntur! Iste.</p>
+            <img src="assets/images/IMG_4561.jpg" alt="..." class="img-thumbnail float-left" id="kaciePic">
+            <p>Hello! My name is Kacie Hatley. I am an aspiring developer currently enrolled at the UNC Charlotte Coding Bootcamp. I anticipate to graduate in April 2020.</p>                
+            <p>My background is in elementary education. After graduating from Wingate University in 2016, I taught 1st grade for one year and then became a 4-H youth development agent for NC State University. I love teaching and inspiring others to learn. Currently my job requires me to administer relevant youth development programs from kids ages 5-18.</p>
+            <p>When the Department of Labor published its statistics for projected growth in the developer job market, I knew we needed a kids programming class in our community. After an exhausting and disappointing search for a volunteer teacher with a backgrounf in coding, I decided to learn it myself. I have been leading a coding club since January 2019, learning with the kids as we go. Currently I go into schools to introduce coding concepts with Scratch projects. I also lead an afterschool 4-H Club where kids use Scratch and basic Python to manipulate a raspberry pi.</p>
+            <p>My long-term goal is to gain some experience in the coding world and gain enough knowledge to mentor/teach others. Bottom line, I want to help people.</p>
+            <p>When I am not coding or keeping the tiny humans alive, you might find me rock-climbing, reading, traveling, or playing bluegrass music.</p>
             </div>
             <div class="col-sm-2">
             </div>
         </div>
-        <div class="row" id="content-margin">
+        <div class="row content-margin">
             </div>
     </div>
     <!-- Sticky Footer -->
